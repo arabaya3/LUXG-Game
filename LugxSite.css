@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    list-style: none;
+    flex-basis: 100%;
+    justify-content: flex-end;
+    padding-top: 25px;
+
+    
+
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main-nav{
+    display: flex;
+    padding: 80px;
+
+
+}
+
+.nav li a{
+    color: white;
+    font-size: 20px;
+    padding: 10px 35px;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition: all .4s ease;
+    
+ 
+}
+.nav li a.active{
+
+    background-color:rgb(255, 255, 255,.2);
+    margin-right: 10px;
+    
+    
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.nav li a:hover{
+    background-color:rgb(255, 255, 255,.2);
+
+}
+
+.nav li:last-child a {
+    background-color: #ee626b;
+    text-transform: uppercase;
+    
+
+}
+/* .paragraph{
+    color: white;
+    margin-left: 80px;
+    padding-top: 100px;
+} */
+.main-banner{
+    padding-top:100px ;
+    background-image: url(images/banner-bg.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.main-banner-content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 40px;
+    margin-top: 100px;
+
+}
+.banner-caption{
+    font-family:Arial, Helvetica, sans-serif
+}
+.banner-caption h5{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 10px;
+
+
+}
+.banner-caption h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 1100;
+    padding-bottom: 50px;
+
+
+}
+.banner-caption span{
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    line-height: 30px;
+
+
+}
+form{
+    max-width: 400px;
+    position: relative;
+}
+
+input{
+    height: 50px;
+    margin-top: 60px;
+    width: 300px;
+    border-radius: 100px;
+    padding-left: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button{
+    margin-top: 60px;
+    background-color: #ee626b;
+    width: 150px;
+    height: 50px;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+.banner-image{
+    width: 30%;
+    
+
+   
+
+}
+.banner-image .right-image{
+    position: relative;
+
+}
+
+
+.banner-image .right-image img{
+    border-radius: 25px;
+}
+.banner-image .right-image .price{
+
+    border-radius: 25px;
+    background-color: rgb(11, 95, 206);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    top: 15px;
+    left: 320px;
+
+}
+.banner-image .right-image .offer{
+    background-color: #ee626b;
+    border-radius: 100px;
+    font-size: 30px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-weight: 600;
+    position: absolute;
+    top: 430px;
+    right: 460px;
+    text-align: center;
+
+
+}
+
+.features{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.item{
+    background-color: white;
+    box-shadow: 0 0 10px rgb(0, 0, 0,.15);
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-transform: uppercase;
+
+
+}
+
+.item .image:hover{
+    background-color: #ee626b;
+}
+
+.item .image{
+    align-items: center;
+    background-color: rgb(24, 97, 207);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.item h4{
+    padding-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+footer{
+    background-image: url(images/banner-bg.jpg);
+    padding: 50px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    margin-top: 50px;
+    
+}
+
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
