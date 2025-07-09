@@ -18,12 +18,24 @@ a{
 
 }
 
+.dec{
+    display: flex;
+    position: relative;
+}
+.main-banner .main-banner-content .banner-caption img{
+    margin-top: 100px;
+    position: absolute;
+    top: 50px;
+    left: 170px;
+}
+
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .main-nav{
     display: flex;
     padding: 80px;
+    
 
 
 }
